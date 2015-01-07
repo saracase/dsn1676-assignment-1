@@ -34,3 +34,21 @@ html {
     width: 1.2em;
     vertical-align: middle;
 }
+
+.body {
+    text-align: center;
+    background-color: #87714f;
+    color: #FFF;
+}
+
+.hat {
+    margin: 0 0.2em 0 0;
+    width: 1.2em;
+    vertical-align: middle;
+}
+
+.handcuffs {
+    margin: 0 0.2em 0 0;
+    width: 1.2em;
+    vertical-align: middle;
+}
