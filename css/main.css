@@ -13,9 +13,19 @@ html {
     text-size-adjust: 100%;
     
     background-color: #e8e5da;
-    color: #fff;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+.masthead {
+    background: transparent url("../images/masthead-bg.png") repeat left center;
+    text-align: center;
+}
+    
+.title {
+    display: inline-block;
+    background-color: #e8e5da;
+}
+    
