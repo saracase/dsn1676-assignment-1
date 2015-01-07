@@ -28,4 +28,9 @@ html {
     display: inline-block;
     background-color: #e8e5da;
 }
-    
+
+.logo {
+    margin: 0 0.2em 0 0;
+    width: 1.2em;
+    vertical-align: middle;
+}
