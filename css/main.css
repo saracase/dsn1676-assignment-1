@@ -12,21 +12,26 @@ html {
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
     
-    background-color: #e8e5da;
+    background-color: #E8E5DA;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .masthead {
     background: transparent url("../images/masthead-bg.png") repeat left center;
     text-align: center;
 }
-    
+
 .title {
     display: inline-block;
-    background-color: #e8e5da;
+    background-color: #E8E5DA;
 }
 
 .logo {
@@ -35,20 +40,26 @@ html {
     vertical-align: middle;
 }
 
-.body {
+.box-bg {
+    background-color: #87714F;
+    color: #fff;
+}
+
+.icons {
+    width: 5em;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-align {
     text-align: center;
-    background-color: #87714f;
-    color: #FFF;
 }
 
-.hat {
-    margin: 0 0.2em 0 0;
-    width: 1.2em;
-    vertical-align: middle;
+.images {
+    width: 100%;
 }
 
-.handcuffs {
-    margin: 0 0.2em 0 0;
-    width: 1.2em;
-    vertical-align: middle;
+.border {
+    border-image: url(../images/panel-border.png) 22 22 22 22 stretch stretch;
+    border-width: 22px 22px 22px 22px;
 }
